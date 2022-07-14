@@ -1,0 +1,174 @@
+body
+{
+  font-family:Open Sans, Segoe UI, sans-serif;
+  padding:0;
+  margin:0;
+}
+
+.navbar
+{
+  margin-bottom:0;
+  position: sticky;
+  position: -moz-sticky;
+  position: -webkit-sticky;
+  top:0;
+  box-shadow: 0 0px 5px 1px rgb(0,0,0);
+  z-index: 999;
+}
+
+.form-control
+{
+  display:inline-block;
+
+}
+
+.btn
+{
+  margin:2px;
+}
+
+.img
+{
+  background-position:center;
+  background-size: cover;
+}
+
+header div.img
+{
+  height:250px;
+}
+
+.icon
+{
+  height:20px;
+  width:20px;
+}
+
+h1
+{
+  text-shadow: 0px 0px 3px black;
+  color:lightgrey;
+  text-align:center;
+  margin:0;
+  padding-top:100px;
+}
+
+.content
+{
+  text-align:center
+}
+
+h2
+{
+  margin-top:10px;
+  margin-bottom:15px;
+}
+
+.input-group
+{
+  text-align:left;
+}
+
+.input-group label
+{
+  margin-left:12px;
+  margin-top:2px;
+}
+
+div.input-group
+{
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightgrey;
+  border-radius: 5px;
+  margin:2px;
+  margin-left:20px;
+  margin-right:20px;
+}
+
+table td
+{
+  padding:5px;
+}
+table th
+{
+  padding:5px;
+}
+
+.panel-flex-container
+{
+  display:flex;
+}
+
+.left-panel
+{
+  flex:1;
+  width:80%;
+  margin:0;
+  padding:10px;
+  display:inline-block;
+  vertical-align: top;
+  text-align:center;
+}
+
+.left-panel-grey
+{
+  flex:1;
+  background-color:darkgrey;
+  background-blend-mode: screen;
+}
+
+.right-panel
+{
+  width:20%;
+  margin:0;
+  padding:10px;
+  background-color:lightgrey;
+  display:inline-block;
+}
+
+@media only screen and (max-width : 1000px) {
+	.right-panel
+	{
+		display:none;
+	}
+}
+
+.alert
+{
+  margin-left:50px;
+  margin-right:50px;
+  margin-top:5px;
+  margin-bottom:5px;
+}
+
+footer
+{
+  background-color:rgb(0, 149, 104);
+  text-align:center;
+  box-shadow: 0 0px 5px 1px rgb(0,0,0);
+  margin-top: 10px;
+}
+
+footer a
+{
+  color:black;
+}
+
+footer .footer
+{
+  text-align:left;
+  display:inline-block;
+  vertical-align: top;
+  margin-left:15px;
+  margin-right:15px;
+  margin-bottom:15px;
+}
+
+.copyright
+{
+  background-color:rgb(0, 102, 71);
+  color:white;
+  padding:10px;
+  box-shadow: 0 0px 5px 1px rgb(0,0,0);
+}
